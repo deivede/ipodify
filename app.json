@@ -2,11 +2,12 @@
   "expo": {
     "name": "ipodify",
     "slug": "ipodify",
-    "version": "1.0.0",
+    "version": "0.1.0",
+    "scheme": "exp",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./ipodifyicon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,13 +21,20 @@
       "supportsTablet": true
     },
     "android": {
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyDhaY3G2A2LeCo5Kya32ZSdrlxCQdI93oE",
+          "certificateHash": "044CDEBF8F894BB259DDB5077579D6231523EC19"
+        }
+      },
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./ipodifyicon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.opensource.ipodify",
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./ipodifyicon.png"
     }
   }
 }
