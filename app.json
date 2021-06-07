@@ -25,14 +25,14 @@
         "googleSignIn": {
           "apiKey": "AIzaSyDhaY3G2A2LeCo5Kya32ZSdrlxCQdI93oE",
           "certificateHash": "044CDEBF8F894BB259DDB5077579D6231523EC19"
-        },
-      "permissions": []
+        }
       },
       "adaptiveIcon": {
         "foregroundImage": "./ipodifyicon.png",
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.opensource.ipodify",
+      "permissions": []
     },
     "web": {
       "favicon": "./ipodifyicon.png"
